@@ -10,9 +10,5 @@ namespace MVC_GymManagement.Entities
 
         // RelationShip Many to Many with MemberShip
         public ICollection<MemberShip> MemberSubscriptions { get; set; } = new List<MemberShip>();
-
-        // Relationship with Plan 
-        public int PlanId { get; set; }
-        public Plan Plan { get; set; } = default!;
     }
 }

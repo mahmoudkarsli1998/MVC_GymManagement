@@ -4,8 +4,7 @@ namespace MVC_GymManagement.Entities
 {
     public class Trainer:GymUser
     {
-
-        public DateTime HireDate { get; set; }
+        // HireDate is stored in BaseEntity.CreatedAt (mapped to the "HireDate" column)
 
         public Specialities Specialities { get; set; }
 
